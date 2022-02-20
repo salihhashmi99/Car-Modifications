@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Functional Modification</title>
+
+    <style>
+           body{
+               position:relative;
+        }
+        h1{
+            color: white;
+        }
+        h4{
+            color: white;
+            font-size: 25px;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: 100;
+            color: white;
+        }
+        #navbar{
+            position: relative;
+        }
+        #navbar ul{
+            display: flex;
+        }
+        #navbar::before{
+            content: "";
+            background-color: greenyellow;
+            position: absolute;
+            height: 135%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.8;
+        }
+        #navbar ul li{
+            list-style: none;
+            font-size: 1.3rem;
+        }
+        #navbar ul li a{
+            color: white;
+            display: block;
+            padding: 3px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+        #navbar ul li a:hover{
+            color: rgb(151,218,27);
+            background-color: white;
+        }
+        .image_left{
+            margin-left: 25px;
+            margin-right: 20px;
+            border-radius: 250px;
+            width: 250px;
+            height: 250px;
+        }
+        .image_right{
+            margin-left: 20px;
+            margin-right: 10px;
+            border-radius: 250px;
+            width: 250px;
+            height: 250px;
+        }
+        .btnCart{
+            background-color: cadetblue;
+            color: black;
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            width: 200px;
+            height: 50px;
+            border-radius: 25px;
+        }
+        footer{
+            background-color: rgb(151,218,27);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body style="background-image: 
+url(https://static2.srcdn.com/wordpress/wp-content/uploads/2021/10/Gran-Turismo-7-Trailer-Boasts-the-Game-Has-Over-400-Cars.jpg);">
+    <nav id="navbar">
+        <ul>
+            <li class="item"><a href="index.html">Login</a></li>
+            <li class="item"><a href="Home.html">Home</a></li>
+            <li class="item"><a href="ContactUs.html">Contact</a></li>
+            <li class="item"><a href="aboutus.html">About us</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <div>
+       <center><h1>Functional Modification</h1>
+    <P>
+        Functional Car Modification is the maintainence of the functionality of the cars. 
+        Like Air Conditioning, Parking Sense etc.functional modifications are those which 
+        change or add certain functions to the vehicle.Installation of sunroofs,air conditioning,
+        car phone,roof rack,navigation system,etc.comeunder this category.Functionalities added to a 
+        vehicle which were notthere earlier are calledfunctional mods.<br>
+       </P>
+        <img src="Data/functional.jpg" alt="functional modifications">
+        <hr>
+    </center>
+    <h4>Types of functional modifications:</h4>
+    <p>There are variety of modifications in the functional modifications of cars that are given below:</p>
+    
+    <img class="image_right" src="Data/navigation.jpg" alt="sattelite navigation system" align="right">
+    <h4>1.Satellite navigation system:</h4>
+    <p>A satellite navigation system is a very useful upgrade if you do not already have it in your car.
+         Most automobile manufacturers offer this feature in their cars these days. A navigation system 
+         uses Global Positioning System (GPS) to chalk out the best route from point A to point B. It 
+         provides information regarding the traffic conditions and thus saves time and makes the journey
+          as hasslefree as possible. <br>
+    </p>
+    <center>
+        <button class="btnCart">Add to Cart</button>
+    </center>
+    <hr>
+
+    <img class="image_left" src="Data/conditioner.jpg" alt="air conditioner system" align="left">
+    <h4>2.Air conditioning:</h4>
+    <p>
+        Car air conditioning is a system within your car that allows you to cool the interior air of the 
+        vehicle in hot weather, providing for a cooler environment for the occupants. Refrigerant changes
+         from gas to liquid, and back to gas, and is a vital part of the air conditioning system and 
+         process.<br>
+    </p>
+    <center>
+        <button class="btnCart">Add to Cart</button>
+    </center>
+    <hr>
+
+    <img class="image_right" src="Data/phone.jpg" alt="car phone" align="right">
+    <h4>3.Car Phone:</h4>
+    <p>
+        The car phone offers the driver, the liberty of using his/her phone while driving.
+         The driver can make or receive phone calls without even touching the phone. It has
+          become even easier to use a car phone these days as most of the modern infotainment
+           systems in cars now offer bluetooth compatibility which helps them connect their phones
+            to the car’s media system directly. <br>
+    </p>
+    <center>
+        <button class="btnCart">Add to Cart</button>
+    </center>
+    <hr>
+
+    <img class="image_left" src="Data/parking.jpg" alt="parking sensors" align="left">
+    <h4>4.Parking sensors:</h4>
+    <P>
+        Parking a car can be a tricky job, especially in tight corners. Parking sensors make the whole
+        easier. Parking sensors can guide the driver while parking by providing information regarding
+        obstacles that are in the way. Many cars offer parking sensors as a standard in-built feature
+         these days. But, if your car doesn’t have one, it is definitely a good modification to be 
+         considered.
+    </P>
+    <center>
+        <button class="btnCart">Add to Cart</button>
+    </center>
+    <hr>
+
+    <img class="image_right" src="Data/rack.jpg" alt="oof racks" align="right">
+    <h4>5.Roof racks:</h4>
+    <p>
+        A roof rack is a perfect carrier that enables you to load up your vehicle and carry bulky equipment
+        from sporting goods to camping gear and a range of other items. It's also important to remember to
+         always secure your load regardless of the type of roof rack or rail installed to your vehicle.
+    </p>
+    <center>
+        <button class="btnCart">Add to Cart</button>
+    </center>
+    <hr>
+
+    <img class="image_left" src="Data/conditioner.jpg" alt="hand controls" align="left">
+    <h4>6.Hand controls:</h4>
+    <p>
+        Hand controls allow people with physical disabilities the ability to drive accessible vehicles
+         independentlyusing alternative methods. Hand controls allow the driver to operate both the 
+         brake and gas pedal using levers that are typically mounted below the steering wheel and 
+         attach to the pedals themselves. <br>
+    </p>
+    <center>
+        <button class="btnCart">Add to Cart</button>
+    </center>
+    <br>
+    <br>
+    <hr>
+    <img class="image_right" src="Data/headlights.jpg" alt="additional headLights" align="right">
+    <h4>7.Additional headLights:</h4>
+    <p>
+        Additional headlights provide significant additional safety when visibility is poor and
+         in bad weather conditions. The additional light often gives drivers those vital seconds
+          in critical hazardous situations. Upgrading standard vehicle lighting is always to be 
+          recommended and can save lives. <br>
+    </p>
+    <center>
+        <button class="btnCart">Add to Cart</button>
+    </center>
+    <hr>
+    
+    <img class="image_left" src="Data/roof.jpg" alt="sunroofs" align="left">
+    <h4>8.Installation of sunroofs:</h4>
+    <p>
+        Sunroof allows fresh air in the cabin when driving. It gives freedom and creates 
+        sort of a romantic ambience. If you plan to keep the windows open, there is so much
+         noise of the gushing wind which makes it too noisy even to converse with the fellow
+          passengers. The sunroof is very good in such situations. <br>
+    </p>
+    <center>
+    <button class="btnCart">Add to Cart</button>
+</center>
+    <hr>
+    </div>
+    <br>
+    <br>
+    <footer>
+        <b>Email:</b>salih.hashmi.1999@gmail.com<br>
+        <b>Phone No:</b>0900-78601<br>
+    </footer>
+</body>
+</html>

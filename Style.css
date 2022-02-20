@@ -1,0 +1,70 @@
+body{
+    position:relative;
+}
+h1{
+    color: white;
+}
+h4{
+    color: white;
+    font-size: 25px;
+}
+#navbar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: greenyellow;
+    position: absolute;
+    height: 135%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: rgb(151,218,27);
+    background-color: white;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.image_left{
+    margin-left: 25px;
+    margin-right: 20px;
+    border-radius: 250px;
+}
+.image_right{
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 250px;
+}
+.btnCart{
+    background-color: cadetblue;
+    color: black;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+}
+footer{
+    background-color: rgb(151,218,27);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
